@@ -1,13 +1,13 @@
 # Koi Paper
 
 > [!IMPORTANT]
-> **Koi Paper được phát triển từ [Nagomi](https://github.com/msk1039/nagomi) của Mayank Kadam ([@msk1039](https://github.com/msk1039)).**
+> **Koi Paper được phát triển từ [Nagomi](https://github.com/msk1039/nagomi) của Mayank Kadam ([@msk1039](https://github.com/msk1039)).** Repo này là **fork** của [msk1039/nagomi](https://github.com/msk1039/nagomi) trên GitHub.
 > Toàn bộ hồ cá (mô phỏng cá koi, nước, lá sen, thời tiết, âm thanh) là công sức của tác giả gốc. Bản demo gốc: <https://nagomi-blue.vercel.app>.
 > Repo này chỉ thêm chế độ hình nền, một số con vật mới và app hình nền cho Windows/macOS ([danh sách thay đổi](#thay-đổi-so-với-bản-gốc)).
 > Đây **không phải** sản phẩm chính thức và không được tác giả gốc bảo trợ. App desktop chính thức của Nagomi: <https://nagomi.m4yank.com>.
 > Dùng giấy phép **PolyForm Noncommercial 1.0.0** giống bản gốc: **chỉ dùng phi thương mại** ([LICENSE](LICENSE)).
 
-**English:** Koi Paper is a derivative of [Nagomi](https://github.com/msk1039/nagomi) by Mayank Kadam, which provides the entire pond (koi simulation, water, lotus, weather, sound). This repository adds a wallpaper mode, pond visitors (ducks, crabs, shrimp, frogs), and desktop wallpaper apps for Windows and macOS. It is not an official Nagomi product and is not endorsed by its author; the official desktop app is at <https://nagomi.m4yank.com>. Like the original, it is licensed under the PolyForm Noncommercial License 1.0.0: noncommercial use only. Nagomi's full commit history is kept in `web/`, imported from [msk1039/nagomi@01e93a4](https://github.com/msk1039/nagomi/commit/01e93a410c0a317ee0a2b81e84a71e54a6db81d0).
+**English:** Koi Paper is a derivative of [Nagomi](https://github.com/msk1039/nagomi) by Mayank Kadam (this repository is a GitHub fork of msk1039/nagomi), which provides the entire pond (koi simulation, water, lotus, weather, sound). This repository adds a wallpaper mode, pond visitors (ducks, crabs, shrimp, frogs), and desktop wallpaper apps for Windows and macOS. It is not an official Nagomi product and is not endorsed by its author; the official desktop app is at <https://nagomi.m4yank.com>. Like the original, it is licensed under the PolyForm Noncommercial License 1.0.0: noncommercial use only. Nagomi's full commit history is kept in `web/`, imported from [msk1039/nagomi@01e93a4](https://github.com/msk1039/nagomi/commit/01e93a410c0a317ee0a2b81e84a71e54a6db81d0).
 
 Koi Paper biến hồ cá Nagomi thành **hình nền động**: cá bơi ngay sau các icon desktop, bấm vào mặt nước thì cá bơi tới.
 
@@ -99,8 +99,8 @@ Bản Mac nằm trong `mac/`: app thanh menu (icon con cá cạnh đồng hồ, 
 
 ```bash
 xcode-select --install          # chỉ cần nếu Mac chưa có trình biên dịch Swift
-git clone https://github.com/DaydreamerSY/koi-pond.git
-cd koi-pond
+git clone https://github.com/DaydreamerSY/koi-paper.git
+cd koi-paper
 bash mac/build.sh
 open "dist-mac/Koi Paper.app"
 ```
